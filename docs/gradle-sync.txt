@@ -1,0 +1,3 @@
+2026-11-07 20:36:13,457 [  48895]   INFO - #com.android.tools.idea.gradle.project.AndroidGradleProjectStartupActivity - Requesting Gradle sync (DataNode<ProjectData> not found for D:/android project/P04_240104040057_Muhammad_Zaini_Arsyad/WargaHubP04. Variants: {}).
+2026-11-07 20:37:20,096 [ 115534]   INFO - #com.android.tools.idea.gradle.project.sync.GradleSyncStateHolder - Gradle sync finished in 1 m 5 s 555 ms
+2026-11-07 20:38:50,678 [ 206116]   INFO - #com.android.tools.idea.gradle.project.sync.GradleSyncStateHolder - Gradle sync finished in 37 s 960 ms

@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-07",
+  "device": "Pixel_7 Android 17/API 37",
+  "apk_sha256": "4b72780d68e25030f95a7d552e749fec9c1071e470f537fb3dd7671432f6d835",
+  "results": [
+    {
+      "id": "T01",
+      "status": "Lulus",
+      "actual": "Beranda tunggal, pengantar tampil setelah cold launch."
+    },
+    {
+      "id": "T02",
+      "status": "Lulus",
+      "actual": "Jumlah 15; judul, kategori, status tampil."
+    },
+    {
+      "id": "T03",
+      "status": "Lulus",
+      "actual": "Gulir sampai zona 15 dan buka rincian berhasil."
+    },
+    {
+      "id": "T05",
+      "status": "Lulus",
+      "actual": "Kembali ke daftar sebelumnya."
+    },
+    {
+      "id": "T04",
+      "status": "Lulus",
+      "actual": "Rincian zona 15 dan 1 berbeda, sesuai ID."
+    },
+    {
+      "id": "T06",
+      "status": "Lulus",
+      "actual": "Up: rincian -> daftar -> Beranda."
+    },
+    {
+      "id": "T07",
+      "status": "Lulus",
+      "actual": "Back: rincian -> daftar -> Beranda -> launcher."
+    },
+    {
+      "id": "T08",
+      "status": "Lulus",
+      "actual": "0 laporan, pesan kosong dan pemulihan tersedia."
+    },
+    {
+      "id": "T11",
+      "status": "Lulus",
+      "actual": "Mode kosong dan tombol pemulihan bertahan setelah rotasi."
+    },
+    {
+      "id": "T09",
+      "status": "Lulus",
+      "actual": "Data pulih menjadi 15 pada landscape."
+    },
+    {
+      "id": "T10",
+      "status": "Lulus",
+      "actual": "Rincian dan zona 1 bertahan setelah rotasi."
+    },
+    {
+      "id": "T14",
+      "status": "Lulus",
+      "actual": "Enam ketukan berurutan tidak crash; Back hanya rincian -> daftar -> Beranda."
+    },
+    {
+      "id": "T15",
+      "status": "Lulus",
+      "actual": "Force-stop, launcher Activity dibuka ulang; data contoh tetap 15."
+    }
+  ]
+}

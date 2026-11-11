@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/page_padding"
+    android:paddingEnd="@dimen/page_padding"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+    <TextView
+        style="@style/Widget.WargaHubP04.Text"
+        android:layout_marginBottom="8dp"
+        android:text="@string/list_help" />
+    <!-- Compact controls preserve list space on short landscape windows. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/tvJumlah"
+            style="@style/Widget.WargaHubP04.Text"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="12dp"
+            android:accessibilityLiveRegion="polite" />
+        <Button
+            android:id="@+id/btnModeKosong"
+            style="@style/Widget.WargaHubP04.Button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/try_empty" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvLaporan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="@dimen/item_gap" />
+        <ScrollView
+            android:id="@+id/emptyContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:visibility="gone">
+            <TextView
+                style="@style/Widget.WargaHubP04.Text"
+                android:paddingTop="16dp"
+                android:text="@string/empty_message" />
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>
